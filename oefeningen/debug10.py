@@ -1,14 +1,14 @@
-x=10
-y=30
 
-def XplusY():
+
+def XplusY(x,y):
     result = x+y
     return result
 
 def main():
     w =10
-    
-    w = XplusY()
+    x=10
+    y=30    
+    w = XplusY(x,y)
     print(w)
 
 

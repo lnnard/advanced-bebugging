@@ -8,7 +8,7 @@ def factorial(n):
     Returns:
         int: The factorial of the number.
     """
-    if n == 1:
+    if n <= 1:
         return 1
     return n * factorial(n - 1)  
 

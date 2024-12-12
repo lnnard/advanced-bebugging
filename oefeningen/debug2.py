@@ -1,4 +1,3 @@
-import argparse
 import math
 
 def calculate_cone_properties(radius, height, scale):
@@ -35,7 +34,7 @@ def main():
     scale = 2.2
     
     # Calculate properties
-    volume, surface_area = calculate_cone_properties(radius, scale)
+    volume, surface_area = calculate_cone_properties(radius,height,  scale)
     
     # Output results
     print(f"Scaled Cone Properties:")

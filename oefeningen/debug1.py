@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.cm as cm
-import matplotlib.pyplot as p1t
+import matplotlib.pyplot as plt
 
 # Generate sample data
 np.random.seed(42)  # For reproducibility

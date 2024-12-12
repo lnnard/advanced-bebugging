@@ -18,7 +18,7 @@ def main():
     
     shopping_cart = [
         ("Apples", 3.50),
-        ("Bananas", '2.75'),
+        ("Bananas", 2.75),
         ("Cherries", 5.00)
     ]
     

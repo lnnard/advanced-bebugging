@@ -5,10 +5,8 @@ def print_list_items(numbers):
     Args:
         numbers (list): A list of numbers.
     """
-    index = 0
-    while index <= len(numbers):  
-        print(numbers[index])
-        index += 1
+    for i in range(len(numbers)):
+        print(numbers[i])
 
 def main():
     numbers = [10, 20, 30, 40, 50]  # A simple list of numbers

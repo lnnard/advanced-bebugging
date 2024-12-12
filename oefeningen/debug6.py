@@ -14,7 +14,7 @@ def calculate_average(numbers):
         total += num
         count += 1
         
-        return total / count
+    return total / count
 
 def main():
     numbers = [10, 20, 30, 40, 50]

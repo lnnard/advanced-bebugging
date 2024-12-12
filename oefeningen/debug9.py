@@ -6,7 +6,7 @@ def calculate_total(prices):
         prices (list): A list of item prices.
     """
     total = sum(prices)
-    print(total)
+    return total
 
 def checkout(prices):
     """
